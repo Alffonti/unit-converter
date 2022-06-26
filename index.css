@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+#hero{
+    background: #6943FF;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main{
+    background: #f4f4f4;
+    padding: 36px 25px;
+    line-height: 20px; /* apply to h3 and parragraphs */
+}
+
+.section {
+    background: white;
+    padding: 5px;
+    margin: 0 0 23px;
+    border-radius: 5px;
+}
+
+.section:last-child{
+    margin: 0;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 28px;
+    letter-spacing: -0.03em;
+    line-height: 38px;
+}
+
+h3{
+    color: #5A537B;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px; 
+    margin-bottom: 9px;
+}
+
+p{
+    color: #353535;
+    font-size: 14px;
+    margin-top: 0; 
+}
+
+input{
+    background: transparent;
+    color: #fff;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 24px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    width: 117px;
+    box-sizing: border-box;
+    margin: 30px auto 25px;
+    padding: 10px; /* padding is not provided in the design */
+    text-align: center;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+button{
+    background: #FFFFFF;
+    color: #3D3D3D;
+    border: none;
+    border-radius: 5px;
+    width: 117px;
+    padding: 9px 0;
+    line-height: 24px;
+}
